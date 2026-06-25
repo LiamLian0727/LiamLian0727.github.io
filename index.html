@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 
+<head>
   <title>Shijie Lian </title>
   
   <meta name="author" content="Lian Shijie">
@@ -8,6 +9,17 @@
   
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
   <link rel="icon" type="image/png" href="images/logo.png">
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['\\(', '\\)']]
+      },
+      svg: {
+        fontCache: 'global'
+      }
+    };
+  </script>
+  <script async id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
 </head>
 
 
@@ -65,8 +77,9 @@
                 </span>
               </span>
             </li>
-            <li style="margin-bottom: 6px;"><font style="color:red">[05/2026]</font> Our work <em>LangForce</em> has been accepted to <em>ICML 2026</em> and featured by Xinzhiyuan. Check out the <a href="https://mp.weixin.qq.com/s/czW-odrhMaCkBiQz841cTQ" target="_blank">WeChat article</a> and <a href="https://mp.weixin.qq.com/s/czW-odrhMaCkBiQz841cTQ" target="_blank">Tencent News report</a>.</li>
-            <li style="margin-bottom: 6px;"><font style="color:red">[04/2026]</font> We released the <em>PhysBrain 1.0</em> series (PhysBrain Data + TwinBrainVLA Architecture + LangForce Algorithm) at the <a href="https://www.zgcforum.com/" target="_blank">Zhongguancun Forum</a>. Check out our <a href="https://mp.weixin.qq.com/s/Ifeb4M-sKAzekdRqrMos1g" target="_blank">WeChat article</a> and <a href="https://phys-brain.github.io/" target="_blank">Project Page</a>. See our agenda on <a href="https://www.zgcforum.com/agenda/t7905/961631" target="_blank">Mar 27</a> and <a href="https://mp.weixin.qq.com/s/RgvxUNuzeDpui9ZpLiG0Iw" target="_blank">Mar 28</a>. </li>
+            <li style="margin-bottom: 10px;"><font style="color:red">[05/2026]</font> Our work <em>LangForce</em> has been accepted to <em>ICML 2026</em> and featured by Xinzhiyuan. Check out the <a href="https://mp.weixin.qq.com/s/czW-odrhMaCkBiQz841cTQ" target="_blank">WeChat article</a> and <a href="https://mp.weixin.qq.com/s/czW-odrhMaCkBiQz841cTQ" target="_blank">Tencent News report</a>.</li>
+            <li style="margin-bottom: 6px;"><font style="color:red">[04/2026]</font> Our work <em>PhysBrain</em> was cited by \(\pi_{0.7}\) on 16 Apr 2026. See the <a href="https://scholar.google.com/scholar?hl=zh-CN&amp;as_sdt=2005&amp;sciodt=0%2C5&amp;cites=2934237968046420760&amp;scipsc=1&amp;q=+%24%7B%5Cpi%7D_%7B0.7%7D%24&amp;btnG=" target="_blank">Google Scholar record</a>.</li>
+            <li style="margin-bottom: 10px;"><font style="color:red">[04/2026]</font> We released the <em>PhysBrain 1.0</em> series (PhysBrain Data + TwinBrainVLA Architecture + LangForce Algorithm) at the <a href="https://www.zgcforum.com/" target="_blank">Zhongguancun Forum</a>. Check out our <a href="https://mp.weixin.qq.com/s/Ifeb4M-sKAzekdRqrMos1g" target="_blank">WeChat article</a> and <a href="https://phys-brain.github.io/" target="_blank">Project Page</a>. See our agenda on <a href="https://www.zgcforum.com/agenda/t7905/961631" target="_blank">Mar 27</a> and <a href="https://mp.weixin.qq.com/s/RgvxUNuzeDpui9ZpLiG0Iw" target="_blank">Mar 28</a>. </li>
             <li style="margin-bottom: 6px;"><font style="color:red">[03/2026]</font> I appeared on <a href="https://content-static.cctvnews.cctv.com/snow-book/video.html?item_id=2106778134502029508&t=1772577572087&toc_style_id=video_default&track_id=0C2D47D1-19F7-4397-8824-93497F5B0C61_794270387158&share_to=wechat" target="_blank">CCTV 13</a> news report "迈向'十五五'美丽图景·一线见闻".
               <span class="news-preview" tabindex="0">
                 <span class="news-preview-trigger">view images</span>
@@ -241,7 +254,7 @@
               <a href="https://zgc-embodyai.github.io/PhysBrain/" target="_blank">Project Page</a> &nbsp|&nbsp
               <a href="images/PhysBrain/PhysBrain.html" target="_blank">BibTex</a>
               <br><p style="margin: 7px;"></p>
-              <em style="color:DimGray">We propose an Egocentric2Embodiment translation pipeline that transforms first-person videos into multi-level, schema-driven VQA supervision, enabling the construction of the E2E-3M dataset at scale. PhysBrain exhibits substantially improved egocentric understanding and enables more sample-efficient VLA fine-tuning.</em>
+              <em style="color:DimGray">We propose an Egocentric2Embodiment translation pipeline that transforms first-person videos into multi-level VQA supervision, enabling the construction of the E2E-3M dataset at scale. PhysBrain exhibits substantially improved egocentric understanding and enables more sample-efficient VLA fine-tuning.</em>
             </td>
           </tr>
 
@@ -292,7 +305,7 @@
               <a href="https://liamlian0727.github.io/TUGS/" target="_blank">Project Page</a> &nbsp|&nbsp
               <a href="images/TUGS/TUGS.html" target="_blank">BibTex</a>
               <br><p style="margin: 7px;"></p>
-              <em style="color:DimGray">We propose Tensorized Underwater Gaussian Splatting (TUGS), which can effectively solve the modeling challenges of the complex interactions between object geometries and water media while achieving significant parameter reduction.</em>
+              <em style="color:DimGray">We propose TUGS, which can effectively solve the modeling challenges of the complex interactions between object geometries and water media while achieving significant parameter reduction.</em>
             </td>
           </tr>
 
@@ -327,7 +340,7 @@
                 <img src='images/UWSAM/UWSAM.png' width="248" height="160">
               </div>
             </td>
-            <td style="padding-left:20px;width:75%;vertical-align:top; padding-top:20px; padding-bottom:30px;">
+            <td style="padding-left:20px;width:75%;vertical-align:top; padding-top:10px; padding-bottom:30px;">
               <papertitle>Advancing Marine Research: UWSAM Framework and UIIS10K Dataset for Precise Underwater Instance Segmentation</papertitle>
               <p style="margin: 5.0px; "></p>
               Hua Li*, &nbsp;<strong style = "text-decoration:underline;">Shijie Lian</strong>*, &nbsp;&nbsp;Zhiyuan Li, &nbsp;&nbsp;Runmin Cong, &nbsp;&nbsp;Chongyi Li, &nbsp;&nbsp;Laurence Tianruo Yang, &nbsp;&nbsp;Weidong Zhang, &nbsp;&nbsp;Sam Kwong
@@ -341,7 +354,7 @@
               <a href="https://huggingface.co/datasets/LiamLian0727/UIIS10K" target="_blank">Dataset (UIIS10K)</a> &nbsp|&nbsp
               <a href="images/UWSAM/UWSAM.html" target="_blank">BibTex</a>
               <br><p style="margin: 7px;"></p>
-              <em style="color:DimGray">We propose a large-scale underwater instance segmentation dataset, UIIS10K, which includes 10,048 images with pixel-level annotations for 10 categories. Then, we introduce UWSAM, an efficient model designed for automatic and accurate segmentation of underwater instances.</em>
+              <em style="color:DimGray">We propose UIIS10K, which includes 10,048 underwater images with pixel-level annotations for 10 categories. Then, we introduce UWSAM, an efficient model designed for automatic and accurate segmentation of underwater instances.</em>
             </td>
           </tr>
 
@@ -349,7 +362,7 @@
           <tr style="border-bottom: 10px solid transparent;">
             <td style="padding:20px;width:25%;vertical-align:middle; padding-bottom:30px;">
               <div class="one">
-                <img src='images/TMANet/TMANet.png' width="248" height="160">
+                <img src='images/TMANet/TMANet.png' width="248" height="150">
               </div>
             </td>
             <td style="padding-left:20px;width:75%;vertical-align:top; padding-top:20px; padding-bottom:30px;">
@@ -423,7 +436,7 @@
                 <img src='images/DSMISR/DSMISR.png' width="248" height="130">
               </div>
             </td>
-            <td style="padding-left:20px;width:75%;vertical-align:top; padding-top:0px; padding-bottom:10px;">
+            <td style="padding-left:20px;width:75%;vertical-align:top; padding-top:20px; padding-bottom:10px;">
               <papertitle>DSMISR: Differential Siamese Multi-scale Attention Network for Iris Image Super Resolution</papertitle>
               <p style="margin: 5px;"></p>
               Jin Hao, &nbsp;&nbsp<strong style = "text-decoration:underline;">Shijie Lian</strong>, &nbsp;&nbspSuqi Li, &nbsp;&nbsp;Hua Li
